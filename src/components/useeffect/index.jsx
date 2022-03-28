@@ -26,6 +26,7 @@ export default function Useeffect() {
     <div>
       <h2>useEffect</h2>
       <p>{resourceType.toLocaleUpperCase()}</p>
+      <span>Verifique o console se tem a resposta da API.</span>
       <div>
         <button onClick={() => changeResourceType("posts")}>Posts</button>
         <button onClick={() => changeResourceType("comments")}>Comments</button>
